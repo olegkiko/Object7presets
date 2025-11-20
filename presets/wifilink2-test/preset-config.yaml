@@ -1,5 +1,5 @@
 name: "wifilink2-test"
-author: "OlegKiko"
+author: "ViperZ28"
 description: "Runcam wifilink2 test preset"
 category: "FPV"
 sensor: ""  # Set sensor file if needed
@@ -8,23 +8,25 @@ tags: ["runcam","wifilink2"]
 files:
   wfb.yaml:
     wireless.width: "20"
-    wireless.channel: 161
-    wireless.txpower: "1"
-    broadcast.stbc: "0"
-    broadcast.ldpc: "0"
+    wireless.channel: 153
+    wireless.txpower: "30"
+    broadcast.stbc: "1"
+    broadcast.ldpc: "1"
     broadcast.mcs_index: "1"
-    #broadcast.tun_index: "1"
+    broadcast.tun_index: "1"
     broadcast.fec_k: "8"
     broadcast.fec_n: "12"  
     telemetry.serial: ttyS2
-    telemetry.baud: "57600"
-    telemetry.router: mavfwd
+    telemetry.router: msposd
   majestic.yaml:
     fpv.enabled: "false"
+    fpv.noiseLevel: "0"
     video0.codec: "h265"
     video0.fps: "60"
     video0.bitrate: "4096"
-    video0.size: "1280x720"
+    video0.size: "1920x1080"
+    records.enabled: "false"
+    records.notime: "true"
     audio.enabled: "false"
     
     

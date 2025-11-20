@@ -1,0 +1,23 @@
+name: "jumbo-packets"
+author: "OpenIPC Dev"
+description: "Description of jumbo-packets."
+category: "FPV"
+sensor: ""  # Set sensor file if needed
+status: "Community"
+tags: ["jumbo-packets"]
+files:
+  wfb.yaml:
+    wireless.width: "40"
+    broadcast.stbc: "1"
+    broadcast.ldpc: "1"
+    broadcast.mcs_index: "4"
+    broadcast.tun_index: "1"
+    broadcast.fec_k: "10"
+    broadcast.fec_n: "15"  
+    telemetry.serial: ttyS2
+    telemetry.router: msposd
+  majestic.yaml:
+    video0.codec: "h265"
+    
+
+    
