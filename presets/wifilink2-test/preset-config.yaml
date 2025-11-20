@@ -10,6 +10,7 @@ files:
     bandwidth: "20"
     channel: "157"
     txpower: "1"
+    driver_txpower_override: "2"
     stbc: "0"
     ldpc: "0"
     mcs_index: "1"
@@ -29,5 +30,6 @@ files:
     
     
 additional_files:
-  - txprofiles.conf
+  - router
+  - rotate
     
