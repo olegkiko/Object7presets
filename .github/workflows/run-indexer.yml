@@ -1,9 +1,9 @@
 name: Update Preset Index
 
 on:
-  # Run on push to master branch
+  # Run on push to main branch
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - 'presets/**'  # Only run when changes occur in presets directory
   
@@ -96,7 +96,7 @@ jobs:
         git diff --staged --quiet || git commit -m "Update preset index with commit ${{ github.sha }} [skip ci]"
         
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@main
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
