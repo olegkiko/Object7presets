@@ -1,5 +1,5 @@
-version: 4662ced854a29da416540853640951fd8fda1e69
-last_updated: '2025-06-23T21:33:16.663Z'
+version: 62724cd63bbda56183622a340b697bcd039b69b7
+last_updated: '2025-11-20T10:41:51.963Z'
 total_presets: 2
 presets:
   - name: jumbo-packets
@@ -47,7 +47,7 @@ presets:
         telemetry.serial: ttyS2
         telemetry.router: msposd
       majestic.yaml:
-        fpv.enabled: 'true'
+        fpv.enabled: 'false'
         fpv.noiseLevel: '0'
         video0.codec: h265
         video0.fps: '60'
