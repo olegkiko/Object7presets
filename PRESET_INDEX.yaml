@@ -1,5 +1,5 @@
-version: f2e496c2688cb8e0ef58f023e9d8963cf96105c7
-last_updated: '2025-11-20T11:09:18.226Z'
+version: 84a24cb96b74f27548fc561268c299e88d93ecea
+last_updated: '2025-11-20T11:13:44.510Z'
 total_presets: 1
 presets:
   - name: wifilink2-test
@@ -21,6 +21,7 @@ presets:
         broadcast.mcs_index: '1'
         broadcast.fec_k: '8'
         broadcast.fec_n: '12'
+      telemetry.conf:
         telemetry.serial: ttyS2
         telemetry.baud: '57600'
         telemetry.router: mavfwd
