@@ -8,7 +8,7 @@ tags: ["runcam","wifilink2"]
 files:
   wfb.conf:
     bandwidth: "20"
-    channel: "160"
+    channel: "157"
     txpower: "1"
     stbc: "0"
     ldpc: "0"
