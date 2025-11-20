@@ -17,9 +17,9 @@ files:
     broadcast.fec_k: "8"
     broadcast.fec_n: "12"
   telemetry.conf:
-    telemetry.serial: ttyS2
-    telemetry.baud: "57600"
-    telemetry.router: mavfwd
+    serial: "/dev/ttyS2"
+    baud: "57600"
+    router: "0"
   majestic.yaml:
     fpv.enabled: "false"
     video0.codec: "h265"
