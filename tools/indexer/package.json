@@ -1,0 +1,16 @@
+{
+    "name": "openipc-preset-indexer",
+    "version": "1.0.0",
+    "description": "Preset indexer for OpenIPC configuration presets",
+    "main": "indexer.js",
+    "scripts": {
+      "index": "node indexer.js",
+      "validate": "node indexer.js"
+    },
+    "dependencies": {
+      "js-yaml": "^4.1.0"
+    },
+    "devDependencies": {
+      "@types/node": "^16.11.6"
+    }
+  }
