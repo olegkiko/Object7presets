@@ -1,5 +1,5 @@
-version: 2dbaac67e4bf704da6d503c37168783001496fa2
-last_updated: '2025-11-20T11:54:35.868Z'
+version: 8f1d904e8c74e2af3081b2a67a7ed1ab6c449222
+last_updated: '2025-11-20T12:39:35.237Z'
 total_presets: 1
 presets:
   - name: wifilink2-test
@@ -16,6 +16,7 @@ presets:
         bandwidth: '20'
         channel: '157'
         txpower: '1'
+        driver_txpower_override: '2'
         stbc: '0'
         ldpc: '0'
         mcs_index: '1'
@@ -33,4 +34,5 @@ presets:
         video0.size: 1280x720
         audio.enabled: 'false'
     additional_files:
-      - txprofiles.conf
+      - router
+      - rotate
