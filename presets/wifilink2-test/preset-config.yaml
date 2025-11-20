@@ -15,7 +15,8 @@ files:
     broadcast.mcs_index: "1"
     #broadcast.tun_index: "1"
     broadcast.fec_k: "8"
-    broadcast.fec_n: "12"  
+    broadcast.fec_n: "12"
+  telemetry.conf:
     telemetry.serial: ttyS2
     telemetry.baud: "57600"
     telemetry.router: mavfwd
