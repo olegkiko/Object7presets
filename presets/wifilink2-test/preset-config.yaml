@@ -19,7 +19,7 @@ files:
     telemetry.serial: ttyS2
     telemetry.router: msposd
   majestic.yaml:
-    fpv.enabled: "true"
+    fpv.enabled: "false"
     fpv.noiseLevel: "0"
     video0.codec: "h265"
     video0.fps: "60"
