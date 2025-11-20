@@ -1,5 +1,5 @@
-version: 84a24cb96b74f27548fc561268c299e88d93ecea
-last_updated: '2025-11-20T11:13:44.510Z'
+version: d82bbf22ee8295f99593482c79c47ffc74d0e074
+last_updated: '2025-11-20T11:37:02.292Z'
 total_presets: 1
 presets:
   - name: wifilink2-test
@@ -22,9 +22,9 @@ presets:
         broadcast.fec_k: '8'
         broadcast.fec_n: '12'
       telemetry.conf:
-        telemetry.serial: ttyS2
-        telemetry.baud: '57600'
-        telemetry.router: mavfwd
+        serial: /dev/ttyS2
+        baud: '57600'
+        router: '0'
       majestic.yaml:
         fpv.enabled: 'false'
         video0.codec: h265
