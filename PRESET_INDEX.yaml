@@ -1,5 +1,5 @@
-version: 34deda4341f8aaf8e4f321b0807641f21e6914e6
-last_updated: '2025-11-20T11:48:02.813Z'
+version: 2dbaac67e4bf704da6d503c37168783001496fa2
+last_updated: '2025-11-20T11:54:35.868Z'
 total_presets: 1
 presets:
   - name: wifilink2-test
@@ -14,7 +14,7 @@ presets:
     files:
       wfb.conf:
         bandwidth: '20'
-        channel: '160'
+        channel: '157'
         txpower: '1'
         stbc: '0'
         ldpc: '0'
